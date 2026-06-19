@@ -115,4 +115,24 @@ Example -
         System.out.println(n);
         
     }
-```"# JAVA-DSA" 
+```
+
+### Type Promotion in Expressions
+- Java automatically promotes each byte, short, or char operand to int when evaluating an expression.   
+```java
+      byte a= 1 ;
+        short b = 32;
+        char x = 'c' ;
+        int ans = a+b+x ;
+        System.out.println(ans);
+
+```
+
+- If one operand is long, float or double the whole expression is promoted to long, float, or double respectively.
+```java
+      long p = 343 ;
+        float q = 43.04f ;
+        int r = 33;
+        double s = p+q+r ;
+        System.out.println(s);
+```
