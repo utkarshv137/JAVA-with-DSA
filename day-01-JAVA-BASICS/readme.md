@@ -135,4 +135,20 @@ Example -
         int r = 33;
         double s = p+q+r ;
         System.out.println(s);
-```
+```  
+## Operators in java 
+Symbols tells compiler to perform some operation .  
+`+`, `-`,`*`.  
+Types of Operator in java :-  
+- **Arithmetic (binary/unary)**  
+  Binary - needs atleast two operands.  
+    - `+`,`-`,`/`,`%` 
+
+  unary - need only  one opreand .  
+    - `++a` (pre-increment - value get updated first then used ), `a++` (post-increment value get used first then increased) ,  
+    `a--` ,`--a`
+- **Relational**  
+- **Logical**  
+- **Bitwise**  
+- **Assigment**  
+
