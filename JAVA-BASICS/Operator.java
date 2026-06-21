@@ -16,5 +16,14 @@ public class Operator {
         System.out.println(a++);
         System.out.println((++a)+","+ (c));
         System.out.println(a--);
+
+      // Relational Operator 
+      System.out.println(a>b);
+
+      // Logical Operator 
+      System.out.println(!(b>a) && (a>b));
+
+      // Assigment 
+      System.out.println(a += 10); //here a = a + 10 (a += 10)
     }
 }

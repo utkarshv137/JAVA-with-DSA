@@ -146,9 +146,110 @@ Types of Operator in java :-
 
   unary - need only  one opreand .  
     - `++a` (pre-increment - value get updated first then used ), `a++` (post-increment value get used first then increased) ,  
-    `a--` ,`--a`
+    `a--` ,`--a`  
+
 - **Relational**  
+    `==`,`!=`,`>`,`<`,`>=`,`<=` .
 - **Logical**  
-- **Bitwise**  
-- **Assigment**  
+    `&&` ,`||` , `!`  
+- **Assigment**    
+    `=`,`+=`,`-=`,`*=`,`/=`
+- **Bitwise**    
+
+
+
+## Flow Control in JAVA  
+Flow control (or control flow) is the order in which statements in a program are executed.  
+
+By default, a program runs from top to bottom, one statement after another. Flow control statements allow you to change this order by making decisions, repeating actions, or jumping to other parts of the code.  
+ 
+### Conditional Statments   
+#### if-else Statment  
+```java
+if(condition){
+
+} else{
+
+}
+```
+#### ternry Operator  
+- **variable = condition ? statment1 : statment2 ;**
+- its basically another method for executing if-else statment . 
+- ```java
+    boolean ans = (a>b)? true : false ;
+        System.out.println(ans);
+    ```
+####  Switch-Case Statment  
+- it Contains a variale which can be of any data type .
+- based on the value of variable it decide which case to choose .  
+example -  
+```java
+ Scanner input = new Scanner(System.in) ;
+        String day = input.next();
+
+        switch (day) {
+            case "monday":
+                System.out.println("monday is bloody woking day");
+                break;
+            case "sunday":
+                System.out.println("hehe its time to rock");
+                break;
+        
+            default:
+                System.out.println("i guess its another boring day");
+                break;
+        }
+
+```
+
+### Loops  
+Used to repeat a block of code.  
+there of three Types :-  
+1. **while loop** 
+    - runs the block the of  code util the  condition is ture   
+    eample : -  
+    ```java
+    int a = 0;
+        while (a<=3){
+            System.out.println(a);
+            a++ ;
+        } 
+     ```
+2. **for loop**    
+    - it is also the iterative loop   
+    ```java  
+      for(int i = 0 ; i<=2 ; i++){
+            System.out.println("for loop");
+        }  
+
+     ```  
+     
+3. **do-while loop**  
+    - it is also same as while loop  
+    - but in this do block executes the statment first and then in the last checks the conditions .  
+    ```java
+    ```
+
+### Jumps Statment 
+ - **Break**  - breaks out of a loop  , example  
+ ```java
+ 
+        for(int i = 5 ; i > 0  ; i -- ){
+            if (i == 3) {
+                break ;
+            }
+        }
+ ```
+ - **continue** - skip a iteration of a loop , example  
+    
+
+
+
+
+ 
+
+
+
+
+
 
