@@ -8,6 +8,8 @@
 
 ## Core Architecture ComponentsJava's
 
+![java architecture](images/Screenshot%202026-06-25%20071856.png)
+
 cross-platform capabilities rely on three essential components:
 
 - JDK (Java Development Kit):Contains the tools needed to develop and compile Java applications.
