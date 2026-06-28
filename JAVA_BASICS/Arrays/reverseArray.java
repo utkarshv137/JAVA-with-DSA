@@ -9,7 +9,7 @@ public class reverseArray{
             last -- ; 
         }
         return arr ;
-
+        
     }
     public static void main(String[] args) {
        int xyz[] = {23,45,78,34,23,90} ;
